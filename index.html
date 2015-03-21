@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>SJKT ST THERESA'S CONVENT</title>
+	<link rel="stylesheet"  href="css/jquery.mobile.min.css">
+	<style>
+		#homeBanner {
+			width: 100%;
+		}
+		.center {
+			text-align: center;
+			margin-left: auto;
+			margin-right:auto;
+		}
+		.banner {
+			display:block;
+			width: 100%;
+		}
+		#qrcode {
+			display:block;	
+			margin-left: auto;
+			margin-right:auto;
+		}
+		#map2 {
+			margin-left: auto;
+			margin-right:auto;
+			width: 320px;
+			height: 320px;  
+	
+		
+	</style>
+	
+	
+	
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.min.js"></script>
+	  <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.4.0.css">
+	 
+
+	
+
+
+</head>
+	
+<body>
+
+
+
+
+
+
+<div id="homeScreen" data-role="page">
+	<img src="imgs/header.jpg" class="banner" />
+	<div data-role="content">
+	
+	
+	<!-- header -->
+
+   <!-- content -->
+	
+	
+	
+	
+	<ul data-role="listview"  data-filter="true" data-inset="true" class="ui-nodisc-icon ui-alt-icon" data-filter-placeholder="ஆராய்க Search">
+
+				<li><a href="#page1"><img src="imgs/living.jpg">
+				<h4>உயிரினங்களை ஆராய்தல் </h4>
+				<p>Investigating Living Things</p></a>
+			</li>
+                <li><a href="#energy"><img src="imgs/energy.jpg">
+				<h2>சக்திமூலங்களை ஆராய்தல்   </h2>
+				<p>Investigating Energy</p></a>
+			</li>
+	
+			<li><a href="#material"><img src="imgs/material.jpg">
+				<h2> பொருலியல்ஆராய்தல் </h2>
+				<p>Investigating Material</p></a>
+			</li>
+			<li><a href="#earth"><img src="imgs/earth.jpg">
+				<h2>புமி மற்றும் விண்வெளி  ஆராய்தல் </h2>
+				<p>Investigating Earth & Universe</p></a>
+			</li>
+			<li><a href="#tecno"><img src="imgs/tecno.jpg">
+				<h2>  தொழில்நுட்ப உலக்கை ஆராய்தல் </h2>
+				<p>Investigating Tecnology</p></a>
+			</li>
+			<li><a href="#exercise"><img src="imgs/exercise.jpg">
+				<h2>பயிற்சி </h2>
+				<p>Exercise</p></a>
+			</li>
+
+			<li><a href="#note"><img src="imgs/notes.png">
+				<h2>குறிப்பு  </h2>
+				<p>Notes</p></a>
+			</li>
+			
+			<li><a href="#note2"><img src="imgs/notes.png">
+				<h2>குறிப்பு 2 </h2>
+				<p>Notes 2</p></a>
+			</li>
+			
+					<li><a href="http:sciba.blogspot.com"><img src="imgs/blog.jpg">
+				<h2>அறிவியல் Blog </h2>
+				<p> Science Blog</p></a>
+			</li>
+			
+			<li><a href="http:facebook.com"><img src="imgs/fb.jpg">
+				<h2>அறிவியல் முகநூல் </h2>
+				<p> Science Facebook</p></a>
+			</li>
+			
+				<li><a href="http:facebook.com/loganathanperumal"><img src="imgs/fb.jpg">
+				<h2>முகநூல் </h2>
+				<p> Author Facebook</p></a>
+			</li>
+			
+			<li><a href="http:facebook.com"><img src="imgs/fb.jpg">
+				<h2>அறிவியல் நண்பர்கள் முகநூல் </h2>
+				<p> Science Friends Facebook</p></a>
+			</li>
+			
+			<li><a href="#gst"><img src="imgs/notes.png">
+				<h2>GST கணக்கு </h2>
+				<p>GST Calculator</p></a>
+			</li>
+			
+		</ul>
+
+			
+			
+		</ul>
+
+	
+		<div class="ui-grid-a center">
+    		<div class="ui-block-a">
+				<a href="#aboutScreen" class="ui-btn ui-corner-all ui-icon-info ui-btn-icon-notext ui-btn-inline ui-nodisc-icon ui-alt-icon">Info</a>
+			</div>
+    		<div class="ui-block-b">
+				<a href="#mapScreen" class="ui-btn ui-corner-all ui-icon-location ui-btn-icon-notext ui-btn-inline ui-nodisc-icon ui-alt-icon">Map</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="page1" data-role="page">
+		<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>Page 1</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+      <h3>COMPETITION</h3>  
+      <div id="imgcontainer">
+       <p style="color:red;">Competition Video</p>
+	  
+<iframe src="https://www.youtube.com/embed/4EU_tJWXaKc" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+      </div>
+     </div>
+
+		
+	</div>
+</div>
+</div>	
+
+<div id="energy" data-role="page">
+		<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>AUDIO PAGE</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+      <h3>Audio</h3>  
+      <div id="imgcontainer">
+       <p style="color:red;">Audio</p>
+	  
+  <audio src="audio/music.mp3" controls>
+<p>If you are reading this, it is because your browser does not support the audio element.</p>
+</audio>
+
+ Listen to a sample of <a href="http://vocaroo.com/i/s0Zj1vHU6pEJ">Audio</a> 
+	 </div>
+     </div>
+
+		
+	</div>
+</div>
+</div>		
+</body>
+<div id="gst" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>GST Calculator</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+    
+        <a href="#settingsPage" id='settingsButton' class="ui-btn-right" data-role="button" data-icon="gear">Settings</a>
+
+        <form>
+            <div data-role="fieldcontain">
+                <label for="billAmount">Bill Amount:</label>
+                <input type="number" name="billAmount" id="billAmount" data-clear-btn="true" maxlength="3" value="" placeholder="Enter amount here">
+            </div>
+            <p style="text-align: center;">
+                <a href="#" id="calcTip" data-role="button" data-icon="check">Calculate GST</a>
+            </p>
+            <p class="amounts">
+			  <p style="text-align: center;">
+                <label>GST Amount</label>
+                <span id="tipAmount">$0.00</span>
+            </p>
+            <p class="amounts totals">
+			  <p style="text-align: center;">
+                <label>Total Amount</label>
+                <span id="totalAmount">$0.00</span>
+            </p>
+        </form>
+    </div>
+</div>
+<div data-role="page" class="" id="settingsPage" data-add-back-btn="true" >
+    <div data-role="header" class="">
+        <a href="#mainPage" class="ui-btn ui-icon-delete ui-btn-icon-left" data-rel="back">Cancel</a>
+        <h1>GST - Settings</h1>
+    </div>
+    <div data-role="content" class="">
+        <form>
+            <input type="number" name="tipPercentage" id="tipPercentage" value="" placeholder="Tip Percentage">
+            <p style="text-align: center;">
+                <a href="#" id='saveSettings' data-role="button" data-inline="true" data-icon="check">Save</a>
+            </p>
+        </form>
+    </div>
+</div>
+
+
+<div id="mapScreen" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>SCIENCE APP</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h2 class="center">SCIENCE APP</h2>
+		<p class="center">No. 17, Jalan Utama 17, Desa Aulong Utama ,<br>34000 Taiping, Perak, MALAYSIA</p>
+
+		<p class="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15936.71331928049!2d101.79669249999999!3d3.0468525000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3367e9ed6c9f%3A0x38d1b5e827f2b4cf!2sJalan+SL+9%2F9a%2C+Bandar+Sungai+Long%2C+43000+Kajang%2C+Selangor!5e0!3m2!1sta!2smy!4v1426691527742" width="600" height="450" frameborder="0" style="border:0"></iframe></p>
+
+	</div>
+</div>
+
+
+
+
+<div id="aboutScreen" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>SCIENCE</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h2 class="center">SCIENCE APP (002135971-U)</h2>
+		
+		<img src="imgs/omtamil.tv logo.png" />
+	
+Science App is created to help students who are about to sit for their UPSR Exam. This app also help teachers who teach science year 6.
+<br>
+<p>Science App is created to help students who are about to sit for their UPSR Exam. This app also help teachers who teach science year 6.
+
+</p>
+	</div>
+</div>
+	<!--
+	Admission
+	Directions
+	Parking
+	Hours
+	Volunteer
+	-->
+	
+	
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/app.js"></script>	
+	
+	
+</body>
+</html>
